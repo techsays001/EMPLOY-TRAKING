@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg">
+
+
+  <Spinner
+      android:id="@+id/empidd"
+      android:layout_width="256dp"
+      android:layout_height="47dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="75dp"
+      android:background="@drawable/bt"
+      android:drawableStart="@drawable/datee"
+      android:drawableLeft="@drawable/datee"
+      android:hint="Year"
+      android:inputType="number"
+      android:padding="10dp"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/empname"
+      android:layout_width="260dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="25dp"
+      android:background="@drawable/bt"
+      android:drawableStart="@drawable/username"
+      android:drawableLeft="@drawable/username"
+      android:hint="name"
+      android:padding="10dp"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+      android:textStyle="bold" />
+
+
+  <TextView
+      android:id="@+id/refresh"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="200dp"
+      android:layout_marginTop="15dp"
+      android:drawableStart="@drawable/refresh"
+      android:drawableLeft="@drawable/refresh" />
+
+<!--  <EditText-->
+<!--      android:id="@+id/empdate"-->
+<!--      android:layout_width="256dp"-->
+<!--      android:layout_height="47dp"-->
+<!--      android:background="@drawable/bt"-->
+<!--      android:drawableStart="@drawable/datee"-->
+<!--      android:drawableLeft="@drawable/datee"-->
+<!--      android:padding="10dp"-->
+<!--      android:focusable="false"-->
+<!--      android:layout_marginLeft="100dp"-->
+<!--      android:layout_marginTop="25dp"-->
+<!--      android:textStyle="bold"-->
+<!--      android:textColor="@color/black"-->
+ android:hint="Date"/>
+
+<!--  <EditText-->
+<!--      android:id="@+id/emptime"-->
+<!--      android:layout_width="256dp"-->
+<!--      android:layout_height="47dp"-->
+<!--      android:background="@drawable/bt"-->
+<!--      android:drawableLeft="@drawable/time"-->
+<!--      android:drawableStart="@drawable/time"-->
+<!--      android:padding="10dp"-->
+<!--      android:focusable="false"-->
+<!--      android:layout_marginLeft="100dp"-->
+<!--      android:layout_marginTop="25dp"-->
+<!--android:hint="Start time"-->
+<!--      android:textStyle="bold"-->
+<!--      android:textColor="@color/black"-->
+<!--      android:textSize="17dp"/>-->
+
+  <EditText
+      android:id="@+id/emptask"
+      android:layout_width="263dp"
+      android:layout_height="115dp"
+      android:layout_marginLeft="100dp"
+      android:layout_marginTop="25dp"
+      android:background="@drawable/bt"
+      android:drawableStart="@drawable/enter"
+      android:drawableLeft="@drawable/enter"
+      android:hint="Task"
+      android:inputType="textMultiLine"
+      android:padding="10dp"
+      android:textColor="@color/black"
+      android:textSize="17dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/taskupdate"
+      android:layout_width="168dp"
+
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="135dp"
+      android:layout_marginTop="45dp"
+      android:background="@drawable/btn"
+      android:text="update" />
+
+</LinearLayout>

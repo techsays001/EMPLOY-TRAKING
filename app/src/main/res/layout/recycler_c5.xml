@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".regtwo"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="411dp"
+            android:layout_height="426dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                        <TextView
+                            android:id="@+id/lotime"
+                            android:layout_width="350dp"
+                            android:layout_height="56dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/time"
+                            android:drawableLeft="@drawable/time"
+                            android:ems="10"
+                            android:inputType="textMultiLine"
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black"
+                            android:textSize="17dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.508"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.07" />
+
+<!--                        <TextView-->
+<!--                            android:id="@+id/map7"-->
+<!--                            android:layout_width="66dp"-->
+<!--                            android:layout_height="50dp"-->
+
+<!--                            android:drawableStart="@drawable/mapp"-->
+<!--                            android:drawableLeft="@drawable/mapp"-->
+<!--                            android:ems="10"-->
+<!--                            android:inputType="textPersonName"-->
+<!--                            android:textColor="@color/white"-->
+<!--                            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                            app:layout_constraintEnd_toEndOf="parent"-->
+<!--                            app:layout_constraintHorizontal_bias="0.498"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"-->
+<!--                            app:layout_constraintVertical_bias="0.914" />-->
+
+                        <TextView
+                            android:id="@+id/la7"
+                            android:layout_width="3dp"
+                            android:layout_height="8dp"
+
+                            android:ems="10"
+                            android:hint="Name"
+                            android:inputType="textMultiLine"
+                            android:padding="8dp"
+                            android:textColor="#8850219C"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.022" />
+
+                        <TextView
+                            android:id="@+id/lo7"
+                            android:layout_width="1dp"
+                            android:layout_height="1dp"
+
+                            android:ems="10"
+                            android:hint="Name"
+                            android:inputType="textMultiLine"
+                            android:padding="8dp"
+                            android:textColor="#8850219C"
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.009" />
+
+                        <TextView
+                            android:id="@+id/loaddress"
+                            android:layout_width="351dp"
+                            android:layout_height="182dp"
+                            android:background="@drawable/bt"
+                            android:drawableStart="@drawable/place"
+                            android:drawableLeft="@drawable/place"
+                            android:ems="10"
+                            android:inputType="textMultiLine"
+                            android:padding="8dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/black"
+                            android:textSize="17dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.412" />
+
+                </android.support.constraint.ConstraintLayout>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+</android.support.constraint.ConstraintLayout>
